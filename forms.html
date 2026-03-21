@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML forms</title>
+</head>
+<body>
+    <!--form tags are used to collect user input. This data is sent to the server for storage or analysis-->
+    <form action="log.php" method="POST">
+        <fieldset>
+            <legend>1st form</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="John" required> <br>
+            
+            <label for="address">Address: </label>
+            <input type="text" name="address" id="address"> <br>
+
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="gender" value="male" checked>Male
+            <input type="radio" name="gender" id="gender" value="female">Female<br>
+            
+            <label for="city">City: </label>
+            <select>
+                <option value="c0" selected disabled>Please select a city</option>
+                <option value="c1">Colombo</option>
+                <option value="c2">Kelaniya</option>
+                <option value="c3">Kandy</option>
+            </select> <br>
+
+            <label for="course">Course: </label>
+            <input type="checkbox" name="course" id="course" value="course1" checked>CS
+            <input type="checkbox" name="course" id="course" value="course1">IS
+            <input type="checkbox" name="course" id="course" value="course2">SE<br>
+
+            <label for="feedback">Feedback: </label> <br>
+            <textarea rows="4" cols="50" name="feedback" placeholder="enter comments"></textarea><br><br>
+
+            <input type="reset" value="Clear Form">
+            <input type="submit" value="Enter Form">
+        </fieldset>
+    </form>
+</body>
+</html>
