@@ -24,4 +24,4 @@ Students can use this repository to:
 
 This repository is intended for educational purposes. All code files are licensed under the MIT License, which allows students to freely use, modify, and share the code for learning purposes.
 
-See the [LICENSE](LICENSE.md) file for full details.
+See the [LICENSE](LICENSE) file for full details.
